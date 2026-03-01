@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Synthwave Cinema"
+paginate = 10
+enableRobotsTXT = true
+[params]
+  description = "Cinema with a synthwave twist"
+  author = "Synthwave Cinema Team"
+[outputs]
+  home = ["HTML", "RSS"]
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+[markup.goldmark.renderer]
+  unsafe = true
